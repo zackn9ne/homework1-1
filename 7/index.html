@@ -14,7 +14,11 @@
 	<ul>
 		<li><a href=""><img src="images/11.jpeg" alt="" height="300" width="300">1</a></li>
 		<li><a href=""><img src="images/12.jpg" alt="" height="300" width="300" >2</a></li>
-		<li><a href=""><img src="images/14.jpeg" alt="" height="300" width="300" ><h1>Click ME</h1></a></li>
+		<!-- this is too polluted, IRL you would have it more like the following line -->
+		<li><img src="images/14.jpeg" alt="" height="300" width="300" ><h1><a href="#">Click Me</a></h1></li>
+		<!-- but in real, real life you would do some variation of this most likely (below via CSS) -->
+		<li><a style="background: url(images/14.jpeg) no-repeat cover; width: 300px; height: 300px; cursor: pointer; text-offset: -9999em; overflow:hidden;" href="#">link to thing</a><h1>Click Me</h1></li>
+		
 		<li><a href=""><img src="images/15.jpeg" alt="" height="300" width="300" >4</a></li>
 		<li><a href=""><img src="images/16.jpg" alt="" height="300" width="300" >5</a></li>
 		<li><a href=""><img src="images/17.jpg" alt="" height="300" width="300" >6</a></li>
