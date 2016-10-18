@@ -9,3 +9,5 @@ document.write(greeting);
 document.addEventListener, function () {
 	document.getElementById('whiz').innerHTML += " bubbles";
 }
+
+// where's your array
