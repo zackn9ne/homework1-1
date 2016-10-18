@@ -5,3 +5,7 @@ if (time < 20) {
     greeting = "Good evening";
 }
 document.write(greeting);
+
+document.addEventListener, function () {
+	document.getElementById('whiz').innerHTML += " bubbles";
+}
