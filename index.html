@@ -8,7 +8,17 @@
 <body>
 <div class="bubbles">
 	<div id="whiz">
-		
+		<script type="text/javascript">
+			var userEnteredNumber = prompt("Please enter a number", "");
+			document.write("<br>");
+			document.write(parseFloat(userEnteredNumber));
+			document.write("<br>");
+			document.write(parseInt(userEnteredNumber));
+			userEnteredNumber = Number(userEnteredNumber)
+			document.write("<br>");
+			document.write(userEnteredNumber);
+			document.write(typeof(userEnteredNumber));
+		</script>
 	</div>
 </div>
 </body>
