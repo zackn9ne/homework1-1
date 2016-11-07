@@ -8,10 +8,20 @@ var T = new Twit(config);
 
 
 
+function TweetIt(){
+	var tweet = {
+		status: 'this a test tweet'
+	}
+	T.post('statuses/update', tweet, tweeted);
 
-
-
-
+	function tweeted(err,data, response){
+		if(err){
+			console.log("Yo, change some stuff");
+		}else{
+		console.log(data);
+		}
+	}
+}
 
 
 var params = { 
