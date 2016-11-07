@@ -1,0 +1,53 @@
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #333;
+}
+#midterm{
+    float: left;
+}
+#midterm a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: RoyalBlue;
+    text-align: ;
+
+}
+.list{
+    float: right;
+}
+.list a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list a:hover{
+    background-color: DarkOliveGreen;
+}
+#background-pic{
+    background: url("http://static.wixstatic.com/media/eda003_25fb5305c32d457d9d2d985562fa77a0.jpg_srz_1440_443_85_22_0.50_1.20_0.00_jpg_srz") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size:: cover;
+    color: #5355ff;
+    border: blue dashed;
+}
+body{
+    padding: 0px;
+    margin 0 auto;
+}
+#title{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+.nav{
+    background-color:white;
+}
