@@ -6,11 +6,15 @@ var config = require('./config');
 
 var T = new Twit(config);
 
+tweetIt();
+setInterval(tweetIt, 1000*60*5)
 
+function tweetIt(){
 
-function TweetIt(){
+	var r = Math.floor(Math.random()*100);
+
 	var tweet = {
-		status: 'this a test tweet'
+		status: 'test tweet #' + r 
 	}
 	T.post('statuses/update', tweet, tweeted);
 
@@ -18,14 +22,14 @@ function TweetIt(){
 		if(err){
 			console.log("Yo, change some stuff");
 		}else{
-		console.log(data);
+		console.log("Nice!");
 		}
 	}
 }
 
 
 var params = { 
-	q: 'for', 
+	q: 'Trump', 
 	count: 3
 };
 
