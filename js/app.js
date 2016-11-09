@@ -11,7 +11,7 @@ $.ajax ({
 	url: 'http://rest.learncode.academy/api/johnbob/friends',
 	success: function(payLoad){
 		$.each(payLoad, function(i, order) {
-			$list.append("<li>" + order.name + "</li>");
+			$list.append("<li>" + order.name + " " + order.age"</li>");
 		});
 	}
 })
